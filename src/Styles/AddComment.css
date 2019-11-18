@@ -1,0 +1,44 @@
+.add-comment-form{
+    text-align:center;
+    margin-bottom:20px;
+    border:solid 2px black;
+    width:400px;
+    margin-left:50%;
+    transform:translateX(-50%);
+    padding-bottom:34px;
+    border-radius:10px;
+}
+
+.form-comment__input-title{
+    margin-bottom:2px;
+}
+.form-comment__input-body{
+    min-width:300px;
+    min-height:60px;
+    max-width:300px;
+    max-height:60px;
+    display:block;
+    margin-left:50%;
+    transform:translateX(-50%);
+    margin-bottom:10px;
+    
+}
+.form-comment_input{
+    padding-left:5px;
+    border-radius:5px;
+}
+.form-comment__submit{
+    display:block;
+    margin-left:50%;
+    transform:translateX(-50%);
+    padding:6px !important;
+}
+.form-comment__submit:hover{
+    transform:translateX(-50%)
+              scale(1.1) !important;
+}
+
+.form-comment__cancel{
+    float:right;
+   margin-right:20px;
+}

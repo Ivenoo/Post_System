@@ -1,0 +1,73 @@
+.menu{
+ 
+  height:60px;
+}
+
+.menu__user-list-button{
+  width:10%;
+  height:100%;
+  float:left;
+  font-size:11px;
+  padding-left:5px;
+  display:inline;
+  text-align:center;
+  background:#383838;
+  transition-duration: 1s;
+  border-bottom-right-radius:20px;
+}
+
+.menu__user-list-button:hover{
+  background:#530000;
+}
+
+.menu__info-user{
+  width:59.5%;
+  height:100%;
+  float:left;
+  background:var(--background-app);
+  font-size:12px;
+}
+.title_selected-user{
+  margin-top:2px;
+  margin-left:5px;
+  margin-bottom:0px;
+  font-size:13px;
+}
+.id__selected-user{
+  font-size:12px;
+  text-align:center;
+  margin-top:-12px;
+}
+.Fname__selected-user{
+  text-align:center;
+}
+.email__selected-user{
+  text-align:center;
+}
+.menu__post-list-button{
+  width:10%;
+  height:100%;
+  float:right;
+  text-align:center;
+  background:#383838;
+  transition-duration: 1s;
+  border-bottom-left-radius:20px;
+}
+.menu__post-list-button:hover{
+  background:#530000;
+}
+
+.selection-button{
+position: relative;
+width:100%;
+height:100%;
+background:none;
+color: var(--text-color);
+border:none;
+font-weight: 800;
+cursor:pointer;
+font-size:15px;
+
+
+}
+

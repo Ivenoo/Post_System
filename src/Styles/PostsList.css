@@ -1,0 +1,33 @@
+.posts{
+    height:auto;
+    overflow:auto; 
+}
+
+.sidebar{
+    width:30%;
+    float:left;
+    display:inline;
+}
+
+.posts-list{
+    width:70%;
+    float:right;
+    box-sizing: border-box;
+    padding: 0% 1% 0% 1% ;
+    margin-bottom:10px;
+    cursor: default;
+}
+.posts-list-title{
+    text-align:center;
+    margin-bottom:5px;
+}
+.post-id-value{
+    text-align:center;
+    font-size:20px;
+}
+.view-user-for-addPost{
+    display:none;
+}
+.body-post{
+    margin: 20px 8% 10px 8%;
+}

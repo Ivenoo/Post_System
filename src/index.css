@@ -1,13 +1,72 @@
+*{
+  --background-app: #181818;
+  --text-color: #ffffff;
+  --hover-color: #350000;
+  --buttons-background:#350000;
+  --correct-color: #007c00;
+  --error-color:#b10000;
+}
+
+
 body {
-  margin: 0;
+  margin:0px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #000;
+  color: var(--text-color);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+table{
+  border-collapse: collapse;;
+}
+table, th, td {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+  font-size:14px;
+}
+th{
+  background:var(--hover-color);
+}
+
+input[type=text],
+input[type=date],
+select,
+textarea{
+  outline:none;
+  border:none;
+  background: var(--background-app);
+  filter: brightness(50%);
+}
+input[type=text],
+input[type=date],
+select,
+textarea{
+  color:white;
+  padding:5px;
+}
+
+button,
+input[type=submit]{
+  border-radius:15px;
+  
+  padding:5px;
+  font-size:15px;
+  color:white;
+  background:var(--buttons-background);
+  border:none;
+  cursor:pointer;
+  transition-duration:1s;
+}
+button:hover,
+input[type=submit]:hover{
+  transform:scale(1.1);
 }

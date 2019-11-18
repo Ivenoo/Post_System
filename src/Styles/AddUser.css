@@ -1,0 +1,68 @@
+.form-user{
+    text-align:center;
+    padding-bottom:20px;
+}
+
+.add-user-form-title{
+    margin-bottom:11px;
+}
+
+.form-user-box{
+    border: solid 2px black;
+    border-radius:10px;
+    margin-left:2%;
+    overflow: auto;
+    height: auto;
+    padding-bottom: 10px;
+    
+}
+.validation-value{
+    font-size:0px;
+    margin-top:20px;
+}
+.value-error{
+    margin-bottom:0px;
+    margin-top:5px;
+    font-size:15px;
+    font-weight:800;
+    color:var(--error-color)
+}
+.value-correct{
+    margin-bottom:0px;
+    margin-top:5px;
+    font-size:15px;
+    font-weight:800;
+    color:var(--correct-color)
+}
+
+.form-user{
+    text-align:center;
+}
+.form-user_input{
+display:block;
+width:150px;
+margin:0px auto;
+border-radius:5px;
+padding-left:7px;
+}
+.form-user__input-title{
+    margin-bottom:2px;
+}
+.form-user__input-address{
+    min-width:160px;
+    min-height:70px;
+    max-height:70px;
+    max-width:160px;
+    border-radius:5px;
+    padding-left:7px;
+}
+.form-user__select-status{
+    display:block;
+    margin:0px auto;
+}
+.form-user__submit{
+    margin-top:40px;
+    margin-right:20px;
+    width:70px;
+    float:right;
+}

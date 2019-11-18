@@ -1,0 +1,41 @@
+.user-view{
+    width:100%;
+    min-height:calc(100vh - 61px);
+    height:auto;
+    overflow:auto;
+    padding-bottom:20px;
+}
+.view-user__user-id{
+    position:absolute;
+    top:15px;
+    font-size:20px;
+
+    left:50%;
+    transform:translateX(-50%)
+}
+.user-view-table{
+    width:98%;
+    text-align:center;
+    margin-left:1%;
+    font-size:20px !important;
+}
+.user-view-table td, .user-view-table th{
+    padding:10px;
+    font-size:15px;
+}
+.user-view-table-title{
+    width:100%;
+    float:right;
+    border:none;
+    text-align:center;
+}
+.last-value-table{
+    border-bottom:solid 2px black;
+}
+.view-user-table-th-title{
+    width:30%;
+}
+.view-user-sidebar .add-post-form-title{
+    margin-top:50px;
+    margin-bottom:17px;
+}

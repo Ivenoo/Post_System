@@ -1,0 +1,11 @@
+.form-user__cancel-submit{
+    margin-top:10px;
+    margin-right:20px;
+    width:70px;
+    float:right;
+}
+.form-user__edit-submit{
+    margin-top:30px;
+    float:left;
+    margin-left:10px;
+}

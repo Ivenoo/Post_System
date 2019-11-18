@@ -1,0 +1,73 @@
+.one-post{
+    border:solid 2px black;
+    box-sizing: border-box;
+    padding: 1%;
+    margin-top:-1px;
+    height:auto;
+    overflow:auto;
+    overflow-x:hidden;
+}
+
+.post-author{
+    text-align:center;
+}
+.contact-author{
+    text-align:center;
+    margin-bottom:5px;
+}
+.title-post{
+    font-weight:800;
+    font-size:20px;
+    text-align:center;
+    color: rgb(129, 0, 0);
+}
+.button-show-comment{
+    text-align:center;
+    margin: 10px 0px 20px 50%;
+    transform:translateX(-50%);
+    padding:10px;
+}
+.button-show-comment:hover{
+    transform:translateX(-50%)
+              scale(1.2)!important;
+}
+.comment-box{
+    width:70%;
+    padding-right:30%;
+    float:left;
+    margin-left:20%;
+    margin-bottom:20px;
+    display:block;
+}
+.author-comment{
+background:#525252;
+}
+.author-name{
+    padding-top:5px;
+    margin: 10px 0px 2px 15px;
+}
+.author-email{
+    margin: 5px 0px 5px 15px;
+    padding-bottom:10px;
+}
+.comment-body{
+    border:solid 2px  #202020;
+    margin-top:-5px;
+    padding-left:10px;
+    padding-bottom:10px;
+}
+.add-comment-button{
+    margin-right:15px;
+    padding:10px;
+    float:right;
+    display:block;
+    right:10px;
+}
+.add-comment-button-box{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width:100%;
+    height:auto;
+    overflow:auto;
+    margin-bottom:20px;
+}

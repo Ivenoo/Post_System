@@ -1,0 +1,15 @@
+.all-posts-one-user{
+    margin-top:23px;
+    width:68%;
+    float:right;
+    margin-right:1%;
+}
+.posts-user-title{
+    text-align:center;
+}
+
+.all-posts-one-user .post-author,
+.all-posts-one-user .contact-author,
+.all-posts-one-user .add-comment-button{
+    display:none;
+}
